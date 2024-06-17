@@ -1,0 +1,35 @@
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #bfbfbf;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f4f8;
+}
+
+.suggestion-text {
+  font-size: 16px;
+  margin: 0;
+  color: #475569;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow-button:hover {
+  transform: scale(1.1);
+}
+
+.arrow-icon {
+  width: 16px;
+  height: 16px;
+}
